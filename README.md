@@ -9,7 +9,8 @@ Algumas das principais tecnologias utilizadas neste projeto:
 1. Java 11;
 2. Spring Boot 2.6.8;
 3. Bean Validation;
-4. Spring Security OAuth2 Client;
+4. OpenFeign;
+5. Spring Security OAuth2 Client;
 
 ## Ambiente de desenvolvimento
 
