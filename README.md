@@ -27,7 +27,7 @@ git clone git@github.com:zup-academy/oauth2-client-livraria.git
 5. No Realm `livraria`, siga os passos:
    - Crie um novo Client com nome `exposicao-livros-client`;
    - Habilite o fluxo Client Credentials Flow;
-   - Associe os Scopes `livros:read` e `autores:read` ao client;
+   - Associe os Scopes `livros:read` e `autores:read` ao client (como Optional Client Scopes);
    - Copie o Client Secret na propriedade `client-secret` do arquivo `application.yml`;
 6. Por fim, iniciar a aplicação via IDE ou linha de comando:
 
