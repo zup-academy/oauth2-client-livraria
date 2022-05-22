@@ -8,7 +8,7 @@ import java.util.Optional;
 
 @FeignClient(
         name = "livrariaClient",
-        url = "http://localhost:8080/oauth2-resourceserver-livraria/"
+        url = "${integrations.resource-server.url}"
 )
 public interface LivrariaClient {
 

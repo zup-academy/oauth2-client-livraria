@@ -31,6 +31,8 @@ spring:
 ##
 # Open Feign
 ##
+integrations.resource-server.url: http://localhost:8080/oauth2-resourceserver-livraria/
+
 feign:
   client:
     config:
