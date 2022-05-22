@@ -27,9 +27,9 @@ git clone git@github.com:zup-academy/oauth2-client-livraria.git
 5. No Realm `livraria`, siga os passos:
    - Crie um novo Client com nome `exposicao-livros-client`;
    - Habilite o fluxo Client Credentials Flow;
-   - Associe os Scopes `livros:read` e `autores:read` ao client (como Optional Client Scopes);
-   - Copie o Client Secret na propriedade `client-secret` do arquivo `application.yml`;
-6. Por fim, iniciar a aplicação via IDE ou linha de comando:
+   - Crie e associe os Scopes `livros:read` e `autores:read` ao client (como Optional Client Scopes);
+6. Copie o Client Secret para propriedade `client-secret` do arquivo `application.yml`;
+7. Por fim, iniciar a aplicação via IDE ou linha de comando:
 
 ```shell
 ./mvnw spring-boot:run
@@ -41,7 +41,7 @@ Aqui demonstramos através de alguns exemplos como você pode consumir a API RES
 
 Dado que a aplicação esteja rodando, basta executar os comandos abaixo para exercitar os endpoints públicos da aplicação.
 
-### Criando novo autor
+### Detalhando um livro existente
 
 ```shell
 curl --request GET \
